@@ -1,0 +1,21 @@
+{
+  "name": "umbracoiconhelper",
+  "version": "1.0.0",
+  "description": "This is an helper library to help find the right icon for your document type or plugin.",
+  "private": true,
+  "scripts": {
+	  "generate-enum": "node.exe .\\GenerateEnum.js",
+	  "generate-netframework": "npm run generate-enum --templatefilepath=./templates/Netframework.txt --outputfilepath=./UmbracoIconHelper/NetFramework/UmbracoHelpersIcons/icons.cs",
+	  "generate-test": "npm run generate-enum --templatefilepath=./templates/Netframework.txt --outputfilepath=./output/test.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjowens/UmbracoIconHelper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjowens/UmbracoIconHelper/issues"
+  },
+  "homepage": "https://github.com/jjowens/UmbracoIconHelper#readme"
+}
