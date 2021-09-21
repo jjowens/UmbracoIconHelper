@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
 	  "generate-enum": "node.exe .\\GenerateEnum.js",
+	  "generate-enum-all": "npm run generate-netframework & npm run generate-core",
 	  "generate-netframework": "npm run generate-enum --templatefilepath=./templates/Netframework.txt --outputfilepath=./UmbracoIconHelper/NetFramework/UmbracoHelpersIcons/icons.cs",
+	  "generate-core": "npm run generate-enum --templatefilepath=./templates/Core31.txt --outputfilepath=./UmbracoIconHelper/Core31/UmbracoHelpersIcons/icons.cs",
 	  "generate-test": "npm run generate-enum --templatefilepath=./templates/Netframework.txt --outputfilepath=./output/test.txt"
   },
   "repository": {

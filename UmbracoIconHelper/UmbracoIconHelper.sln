@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Netframework", "Netframewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHelpersIcons", "NetFramework\UmbracoHelpersIcons\UmbracoHelpersIcons.csproj", "{F7A9F814-A016-4215-A5F2-ED548B984EF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core31", "Core31", "{DD30E78F-31E4-4494-9B7E-2B621C607094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHelpersIcons", "Core31\UmbracoHelpersIcons\UmbracoHelpersIcons.csproj", "{F797A931-ED3C-4341-95F2-93D4CEFE9043}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{F7A9F814-A016-4215-A5F2-ED548B984EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7A9F814-A016-4215-A5F2-ED548B984EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7A9F814-A016-4215-A5F2-ED548B984EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F797A931-ED3C-4341-95F2-93D4CEFE9043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F797A931-ED3C-4341-95F2-93D4CEFE9043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F797A931-ED3C-4341-95F2-93D4CEFE9043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F797A931-ED3C-4341-95F2-93D4CEFE9043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F7A9F814-A016-4215-A5F2-ED548B984EF4} = {60DB2BBD-9EB9-44E2-BE4A-355ABA171315}
+		{F797A931-ED3C-4341-95F2-93D4CEFE9043} = {DD30E78F-31E4-4494-9B7E-2B621C607094}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {494CC6D2-F53A-4928-810F-1E2DB4833EA6}
