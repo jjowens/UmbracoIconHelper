@@ -51,4 +51,4 @@ When you call the method ToFileName(), i.e. icons.BooksAlt2.ToFileName(), It wil
 
 If it sees that the current character is in UpperCase or a numeric value, it will add a dash before appending the character in lowercase.
 
- icons.***B***ooks***A***lt***2***" becomes "icon-***b***ooks-***a***lt-***2***
+ icons.***B***ooks***A***lt***2*** becomes icon-***b***ooks-***a***lt-***2***
