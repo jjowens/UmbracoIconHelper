@@ -1,6 +1,8 @@
 # UmbracoIconHelper
 This is an helper library to help find the right icon for your document type or plugin. I've created those libraries to help every Umbraco developer to find a icon by typing a keyword from the enum list, rather than scanning through the directory.
 
+Those libraries supports ASP.net Framework and ASP.net Core 3.1 websites. 
+
 ## NPM Commands
 
 I've added npm commands for myself to retrieve a list of icon filenames before exporting it to a new class file. This saved me a lot of time and effort in typing up over 600 icon filenames! You don't need to use those npm commands, unless there are new icons that have been added to your Umbraco website. Any mis-spelling of filenames are as is, it was retrieved from the file.
