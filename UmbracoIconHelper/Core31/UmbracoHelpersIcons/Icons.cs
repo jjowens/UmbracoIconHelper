@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Umbraco.Helpers.Icons
 {
-    public enum icons
-    {
+	public enum icons
+	{
 		Activity,
 		Add,
 		Addressbook,
@@ -614,32 +612,33 @@ namespace Umbraco.Helpers.Icons
 		Zip,
 		ZomOut,
 		ZoomIn
-    }
+	}
 
-    public static class HelperExtension
-    {
-        private static string cleanName(string name)
-        {
-            string iconName = "icon";
+	public static class HelperExtension
+	{
+		private static string cleanName(string name)
+		{
+			string iconName = "icon";
 
-            foreach(char letter in name)
-            {
-                if (Char.IsUpper(letter) || Char.IsDigit(letter))
-                {
-                    iconName += "-";
-                }
+			foreach (char letter in name)
+			{
+				if (Char.IsUpper(letter) || Char.IsDigit(letter))
+				{
+					iconName += "-";
+				}
 
-                iconName += letter.ToString().ToLower();
-            }
+				iconName += letter.ToString().ToLower();
+			}
 
-            return iconName;
-        }
+			return iconName;
+		}
 
-        public static string ToIconName(this icons @this)
-        {
-            var iconName = cleanName(@this.ToString());
+		public static string ToFileName(this icons @this)
+		{
+			var iconName = cleanName(@this.ToString());
 
-            return iconName;
-        }
-    }
+			return iconName;
+		}
+	}
 }
+
