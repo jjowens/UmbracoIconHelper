@@ -29,9 +29,9 @@ Templates are plain text files. This allows us to replace the ICONNAMES placehol
 
 ## How to use library
 
-Please add the *.dll, e.g. Umbraco.Helpers.Icons.dll, library to your project from the distribution folder. Then make a call to the enum class. You must use the ToFileName to get the correct icon name for your Umbraco website.
+Please add the *.dll, e.g. Umbraco.Helpers.Icons.dll, library to your project from the distribution folder. Then make a call to the enum class. You must use the ToIconName to get the correct icon name for your Umbraco website.
 
-***NOTE*** If you're using the ASP.Core library version, please add "using Umbraco.Helpers.Icons;" to top of file. This will ensure your ToFileName() extension method will appear. 
+***NOTE*** If you're using the ASP.Core library version, please add "using Umbraco.Helpers.Icons;" to top of file. This will ensure your ToIconName() extension method will appear. 
 
 Examples:
 
