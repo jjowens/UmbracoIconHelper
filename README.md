@@ -47,7 +47,7 @@ will output
 
 ## How it works
 
-When you call the method ToFileName(), i.e. icons.BooksAlt2.ToIconName(), It will initialise a new string, "icon-" and then it will iterate over each character in your choice of icon name.
+When you call the method ToIconName(), i.e. icons.BooksAlt2.ToIconName(), It will initialise a new string, "icon-" and then it will iterate over each character in your choice of icon name.
 
 If it sees that the current character is in UpperCase or a numeric value, it will add a dash before appending the character in lowercase.
 
